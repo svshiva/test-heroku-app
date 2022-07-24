@@ -1,0 +1,9 @@
+numpy
+opencv-python
+opencv-contrib-python
+CMake
+dlib
+face-recognition
+fastapi
+uvicorn
+gunicorn
