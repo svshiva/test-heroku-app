@@ -1,6 +1,7 @@
 numpy
 opencv-python
 opencv-contrib-python
+opencv-python-headless
 CMake
 dlib
 face-recognition
