@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Request, Form, UploadFile, File
+import uvicorn
 from helper import *
 
 
@@ -18,3 +19,4 @@ async def face_validation(test_image: UploadFile, id: str = Form(default="Null")
     distance = str(distance[0])
     return {'id': id, 'result': result, 'distance': distance}
 
+uvicorn.run(app)
